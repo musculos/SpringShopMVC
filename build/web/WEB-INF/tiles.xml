@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<!DOCTYPE tiles-definitions PUBLIC 
+   "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+   "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+ 
+<tiles-definitions> 
+    <definition name="home.index" 
+     template="/WEB-INF/jsp/templates/templateUser.jsp">
+     <put-attribute name="content" value="/WEB-INF/jsp/home/index.jsp"></put-attribute>
+    </definition>
+    
+     <definition name="aboutUs.index" 
+     template="/WEB-INF/jsp/templates/templateUser.jsp">
+     <put-attribute name="content" value="/WEB-INF/jsp/aboutUs/index.jsp"></put-attribute>
+    </definition>
+    
+    <definition name="flowers.index" 
+     template="/WEB-INF/jsp/templates/templateUser.jsp">
+     <put-attribute name="content" value="/WEB-INF/jsp/flowers/index.jsp"></put-attribute>
+    </definition>
+    
+    <definition name="regalosespeciales.index" 
+     template="/WEB-INF/jsp/templates/templateUser.jsp">
+     <put-attribute name="content" value="/WEB-INF/jsp/regalosespeciales/index.jsp"></put-attribute>
+    </definition>
+    
+   <definition name="micuenta.index" 
+     template="/WEB-INF/jsp/templates/templateUser.jsp">
+     <put-attribute name="content" value="/WEB-INF/jsp/micuenta/index.jsp"></put-attribute>
+    </definition>
+    
+    
+    <definition name="registros.index" 
+     template="/WEB-INF/jsp/templates/templateUser.jsp">
+     <put-attribute name="content" value="/WEB-INF/jsp/registros/index.jsp"></put-attribute>
+    </definition>
+    
+    <definition name="precios.index" 
+     template="/WEB-INF/jsp/templates/templateUser.jsp">
+     <put-attribute name="content" value="/WEB-INF/jsp/precios/index.jsp"></put-attribute>
+    </definition>
+    <definition name="contactar.index" 
+     template="/WEB-INF/jsp/templates/templateUser.jsp">
+     <put-attribute name="content" value="/WEB-INF/jsp/contactar/index.jsp"></put-attribute>
+    </definition>
+</tiles-definitions> 
